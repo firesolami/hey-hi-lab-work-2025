@@ -76,4 +76,3 @@ pip install textblob nltk pandas matplotlib
 ## Notes
 
 - Week 5 scripts are designed to be run from within the `week5/` directory as they use relative paths to access data files in `../data/`.
-- The `basics/loops.py` file contains an infinite loop bug in the third loop example (pre-existing issue).
