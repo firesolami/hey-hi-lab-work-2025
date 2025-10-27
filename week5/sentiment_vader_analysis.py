@@ -8,7 +8,7 @@ nltk.download('vader_lexicon')
 analyzer = SentimentIntensityAnalyzer()
 
 for article_num in [1, 2, 3]:
-    with open(f'article{article_num}.txt', 'r', encoding='utf-8') as f:
+    with open(f'../data/article{article_num}.txt', 'r', encoding='utf-8') as f:
         lines = f.readlines()
 
     # Remove empty lines
