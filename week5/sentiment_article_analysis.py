@@ -2,7 +2,7 @@ from textblob import TextBlob
 import matplotlib.pyplot as plt
 import pandas as pd
 
-with open('article1.txt', 'r', encoding='utf-8') as f:
+with open('../data/article1.txt', 'r', encoding='utf-8') as f:
     lines = f.readlines()
 
 lines = [line.strip() for line in lines if line.strip()]
