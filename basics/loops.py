@@ -9,8 +9,11 @@ while count >= 1:
     count -= 1
 
 #loop to calculate sum of num from 1 to 100
-i = 100
-while i >= 1:
-    print(i)
+i = 1
+sum = 0
+while i <= 100:
+    sum += i
     i += 1
+
+print(sum)
 
